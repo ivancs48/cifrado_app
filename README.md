@@ -12,8 +12,8 @@ Esta aplicación de escritorio desarrollada en Python con Tkinter implementa un 
 ## Instalación
 Asegúrate de tener Python 3.6 o superior instalado. Clona o descarga este repositorio. No se requieren dependencias adicionales (Tkinter viene incluido con Python).
 
-```bash
-python main.py
+## Ejecución
+```python main.py```
 
 ## Algoritmo de Cifrado
 El proceso de cifrado sigue estos pasos:
@@ -25,7 +25,7 @@ Intercambia el quinto dígito con el sexto
 El descifrado invierte este proceso para recuperar el número original.
 
 ## Estructura del Proyecto
-```cifrado_app/
+cifrado_app/
 ├── models/
 │   ├── __init__.py
 │   ├── cifrado.py
@@ -34,7 +34,7 @@ El descifrado invierte este proceso para recuperar el número original.
 │   ├── ventana_principal.py
 │   ├── ventana_cifrada.py
 │   ├── ventana_descifrado.py
-└── main.py```
+└── main.py
 
 ## Ejemplos de Uso
 Cifrado: El número 123456 se convierte en 018932
