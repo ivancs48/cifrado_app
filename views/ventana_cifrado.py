@@ -65,11 +65,6 @@ class VentanaCifrado:
         
         info_label = ttk.Label(main_frame, text="Proceso de cifrado:", font=self.subtitulo_font)
         info_label.pack(anchor="w", padx=10, pady=(10, 5))
-        
-        ttk.Label(main_frame, text="1. Se suma 7 a cada dígito y se obtiene el residuo de dividir entre 10").pack(anchor="w", padx=20)
-        ttk.Label(main_frame, text="2. Se intercambia el 1er dígito con el 3ro").pack(anchor="w", padx=20)
-        ttk.Label(main_frame, text="3. Se intercambia el 2do dígito con el 4to").pack(anchor="w", padx=20)
-        ttk.Label(main_frame, text="4. Se intercambia el 5to dígito con el 6to").pack(anchor="w", padx=20)
     
     def cifrar_numero(self):
         try:
